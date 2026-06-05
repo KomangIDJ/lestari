@@ -41,6 +41,10 @@
                     <span class="text-base">NT</span>
                     Work Completion
                 </a>
+                <a href="{{ route('reports.daily') }}" class="@if(request()->routeIs('reports.daily')) bg-emerald-400/10 text-emerald-300 ring-1 ring-inset ring-emerald-400/20 @else text-slate-300 hover:bg-slate-900 hover:text-white @endif flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-medium transition">
+                    <span class="text-base">RP</span>
+                    Daily Report
+                </a>
             </nav>
 
             <div class="hidden border-t border-slate-800 px-6 py-5 lg:block">
@@ -60,6 +64,7 @@
                         <a href="{{ route('employees.create') }}" class="rounded-2xl bg-slate-950 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800">New Employee</a>
                         <a href="{{ route('products.create') }}" class="rounded-2xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:text-slate-950">New Product</a>
                         <a href="{{ route('workallocations.create') }}" class="rounded-2xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:text-slate-950">New SPK</a>
+                        <a href="{{ route('reports.daily') }}" class="rounded-2xl border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:text-slate-950">Daily Report</a>
                     </div>
                 </div>
             </header>

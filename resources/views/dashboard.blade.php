@@ -15,6 +15,7 @@
                 <div class="flex flex-wrap gap-3">
                     <a href="{{ route('workallocations.create') }}" class="rounded-2xl bg-emerald-400 px-4 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300">Create SPK</a>
                     <a href="{{ route('workcompletions.create') }}" class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Create Nota</a>
+                    <a href="{{ route('reports.daily') }}" class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/10">Daily Report</a>
                 </div>
             </div>
 
